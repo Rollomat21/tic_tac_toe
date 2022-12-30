@@ -6,6 +6,8 @@ if __name__ == "__main__":
     win = False
     state = ["#"] * 9
 
+    player = 2
+
     while not win:
         print_board(state=state)
         user_input = read_player_input()
